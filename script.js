@@ -37,7 +37,7 @@ function stopRecording(){
     record = false
 }
 
-recButton.addEventListener("click", () => {
+recButton.addEventListener("mousedown", () => {
     if(!record){
         converter()
         record = true
