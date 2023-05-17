@@ -37,7 +37,7 @@ function stopRecording(){
     record = false
 }
 
-recButton.addEventListener("keydown", () => {
+recButton.addEventListener("click", () => {
     if(!record){
         converter()
         record = true
